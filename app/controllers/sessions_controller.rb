@@ -7,7 +7,7 @@ class SessionsController < ApplicationController
     end
  
     session[:user_id] = @user.id
- 
+ binding.pry
     render 'welcome/home'
   end
  
