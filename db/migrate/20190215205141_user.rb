@@ -3,6 +3,8 @@ class User < ActiveRecord::Migration
     create_table :users |t|
     t.string :name
     t.string :email
-    t.stro]
+    t.string :uid
+    t.string :image
+    
   end
 end
