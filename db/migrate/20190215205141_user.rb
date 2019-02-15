@@ -5,6 +5,6 @@ class User < ActiveRecord::Migration
     t.string :email
     t.string :uid
     t.string :image
-    
+  end
   end
 end
